@@ -47,19 +47,18 @@
     <script src="assets/js/bootstrap-modal.js"></script>
         <script src="assets/js/bootstrap-scrollspy.js"></script>
     
-    <script type="text/javascript">
+   <script type="text/javascript">
     
-    $(document).ready(function() {
-      $('#modal-from-dom').modal('show')
-      })
-    });
-    
-    </script>
+  jQuery(document).ready(function($) {
+  
+$('#modal-from-dom').modal('show');
+  });
+  </script>
     
     
   </head>
 
-  <body onLoad="getStarted()">
+  <body onload="getStarted()">
 
     <!-- Topbar
     ================================================== -->
@@ -107,7 +106,7 @@
  <!-- Workshop closed
  ================================================== --> 
 <button data-controls-modal="modal-from-dom" data-backdrop="true" data-keyboard="true" class="btn danger">Launch Modal</button>
-   
+
       <div id="modal-from-dom" class="modal hide fade in" style="display: none; ">
                   <div class="modal-header">
                     <a href="#" class="close">×</a>
