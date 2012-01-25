@@ -30,7 +30,7 @@ margin:10px auto;
 -------------------------------------------------- */
 .jumbotron {
   min-width: 940px;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 .jumbotron .inner {
   background: ;
@@ -39,12 +39,20 @@ margin:10px auto;
      -moz-box-shadow: inset 0 10px 30px rgba(0,0,0,.3);
 /*          box-shadow: inset 0 10px 30px rgba(0,0,0,.3);
 */}
+
+.jumbotron img.topLogo {
+	float:left; margin-right:40px;
+	padding-top: 16px;}
+
+
 .jumbotron h1,
 .jumbotron p {
   margin-bottom: 9px;
   color: #fff;
-  text-align: center;
+  text-align: left;
   text-shadow: 0 1px 1px rgba(0,0,0,.3);
+  width:  600px;
+  display: inline-block;
 }
 .jumbotron h1 {
   font-size: 54px;
@@ -62,6 +70,7 @@ margin:10px auto;
   color: #fff;
   font-weight: bold;
 }
+
 
 /* Specific jumbotrons
 ------------------------- */
