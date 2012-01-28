@@ -51,7 +51,7 @@
     
   jQuery(document).ready(function($) {
   
-$('#modal-from-dom').modal('show');
+$('#modal-from-dom').modal('shown')
 
  
   });
@@ -71,8 +71,8 @@ $('#modal-from-dom').modal('show');
           <ul class="nav">
             
             <li class="active"><a href="#about">About Flip-Lab</a></li>
-            <li><a href="#workshops">Workshops</a></li>
-            <li><a href="#forschools">Flip-Lab @ your School</a></li>
+            
+           <li><a href="#forschools">Flip-Lab @ your School</a></li>
             <li><a href="#founders">Founders</a></li>
             <li><a href="#contact">Contact</a></li>
 
@@ -89,8 +89,8 @@ $('#modal-from-dom').modal('show');
         <img src="assets/img/fliplab-logo.png" alt="flip lab logo" class="topLogo"/>
           <h1>Flip-Lab</h1>
           
-          <p  class="lead">Educational workshops focused on synthesis, analysis &amp; evaluation for your teaching team.</p>
-          <p>Flip-Lab provides 21st century professional development.</p>
+          <p  class="lead">We believe educational workshops should focus on application, synthesis, analysis &amp; evaluation.</p>
+          <p>We provide 21st century professional development.</p>
           
         </div><!-- /container -->
       </div>
@@ -106,7 +106,7 @@ $('#modal-from-dom').modal('show');
       
       
  <!-- Workshop closed
- ================================================== --> 
+ ================================================== 
 <button data-controls-modal="modal-from-dom" data-backdrop="true" data-keyboard="true" class="btn danger">Launch Modal</button>
 
       <div id="modal-from-dom" class="modal hide fade in" style="display: none; " >
@@ -118,10 +118,11 @@ $('#modal-from-dom').modal('show');
                     <p>Thanks to all for the overwhelmingly positive response for the Spring 2012 "Complete Flip" workshop.</p> <p>We are <strong>no longer accepting applications</strong> for this Flip-Lab experience.</p>
                   </div>
                   <div class="modal-footer">
-                    <a href="#contact" class=" btn info toggle">Sign up to receive<br/>future workshop notifications</a>
-                    <a href="#forschools" class=" btn primary ">Request a Flip-Lab<br/>experience at your school</a>
+                    <a href="#contact" class="close btn info toggle">Sign up to receive<br/>future workshop notifications</a>
+                    <a href="#forschools" class="close btn primary ">Request a Flip-Lab<br/>experience at your school</a>
+                    <a href="#" class="close btn default ">Close<br/>window</a>
                   </div>
-                </div>
+                </div>--> 
       
       
       
@@ -134,7 +135,18 @@ $('#modal-from-dom').modal('show');
 <!-- What is Flip-Lab?
 ================================================== -->
 <section id="about">
+<div>
+<span class="label important">Please note</span> <b style="margin:0 20px; font-size:160%;">February workshop now closed.</b> 
+
+
+         <a href="#contact" class=" btn info toggle">Sign up to receive<br/>future workshop notifications</a>
+<a href="#forschools" class=" btn primary ">Request a Flip-Lab<br/>experience at your school</a>
+
+</div>
   <div class="page-header">
+  
+  
+  
     <h1>About Flip-Lab <small>Modeling best teaching practice</small></h1>
   </div>
 
@@ -166,7 +178,7 @@ $('#modal-from-dom').modal('show');
 
 
 <!-- Workshop Examples
-================================================== --><section id="workshops">
+================================================== <section id="workshops">
   <div class="page-header">
     <h1>Workshop Examples <small>professional development experiences</small></h1>
   </div>
@@ -186,11 +198,11 @@ $('#modal-from-dom').modal('show');
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed elit at quam feugiat rhoncus condimentum eu erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lobortis accumsan lacus vel aliquet. Cras ut nunc a justo tempor dignissim. Sed luctus, tortor nec posuere hendrerit, libero erat viverra urna, et mattis purus odio sit amet quam. Donec auctor porttitor elit, ut suscipit augue volutpat in..</p>
      
     </div>
-  </div><!-- /row -->
+  </div>
 
   
 </section>
-
+-->
 
 
 <!-- Flip-Lab @ Your School page
